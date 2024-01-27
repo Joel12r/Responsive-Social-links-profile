@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
 body {
     background-color: rgb(19, 19, 19);
-    font-family: sans-serif;
+    font-family: Inter;
     color: white;
     text-align: center;
 }
@@ -13,7 +15,7 @@ body {
     margin-bottom: 5%;
     margin-top: 3%;
     border-radius: 15px;
-    background-color: rgba(37, 37, 37, 0.89);
+    background-color: hsl(0, 0%, 12%);
 }
 
 img.icon-image {
@@ -29,11 +31,17 @@ img.icon-image:hover {
     transition: 0.3s;
 }
 
+h1 {
+    font-weight: 700;
+}
+
 h3.location {
-    color: rgb(230, 255, 88);
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
 }
 
 p.description {
+    font-size: 14px;
     letter-spacing: 1px;
 }
 
@@ -55,7 +63,7 @@ li a {
     border: 1px solid rgb(58, 58, 58);
     color: white;
     border-radius: 12px;
-    background-color: rgb(58, 58, 58);
+    background-color: hsl(0, 0%, 20%);
     text-decoration: none;
     width: 100%;
 
@@ -63,7 +71,7 @@ li a {
 
 li a:hover {
     color: black;
-    background-color: rgb(230, 255, 88);
+    background-color: hsl(75, 94%, 57%);
 }
 
 li a.instagram {
@@ -153,7 +161,7 @@ li a.github {
     }
 
     li a.instagram {
-        padding: 4% 31% 4% 31%;
+        padding: 4% 30% 4% 30%;
     }
 
     li a.twitter {
@@ -161,11 +169,11 @@ li a.github {
     }
 
     li a.linkedin {
-        padding: 4% 32% 4% 32%;
+        padding: 4% 31% 4% 32%;
     }
 
     li a.mentor {
-        padding: 4% 27% 4% 27%;
+        padding: 4% 25% 4% 25%;
     }
 
     li a.github {
