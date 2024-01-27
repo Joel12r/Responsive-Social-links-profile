@@ -202,7 +202,7 @@ li a.github {
     }
 
     li a.mentor {
-        padding: 4% 25% 4% 25%;
+        padding: 4% 24% 4% 25%;
     }
 
     li a.github {
@@ -212,7 +212,7 @@ li a.github {
 
 @media (max-width:480px) {
     .card {
-
+    
         width: 85%;
         margin-left: 5%;
     }
@@ -230,7 +230,7 @@ li a.github {
     }
 
     li a.mentor {
-        padding: 4% 25% 4% 25%;
+        padding: 4% 24% 4% 24%;
     }
 
     li a.github {
