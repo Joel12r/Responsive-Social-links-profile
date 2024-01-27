@@ -1,0 +1,218 @@
+body{
+    background-color: rgb(19, 19, 19);
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}.card{
+    border: 1px solid rgba(37, 37, 37, 0.89);
+    width: 25%;
+    height: 100%;
+    margin-left: 37%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    border-radius: 15px;
+    background-color: rgba(37, 37, 37, 0.89);
+}
+img.icon-image{
+  
+    width: 30%;
+    margin-top: 5%;
+    border-radius: 100%;
+}
+img.icon-image:hover{
+    cursor: zoom-in;
+    border: 1px solid white;
+    transition: 0.3s;
+}
+h3.location{
+    color: rgb(230, 255, 88);
+}
+p.description{
+    letter-spacing: 1px;
+}
+ul{
+    padding-top: 5%;
+ 
+}
+li.social-media-links{
+    list-style: none;
+    margin-top: 6%;
+    margin-bottom: 13%;
+    margin-left: -7%;
+}
+li a{
+    cursor: pointer;
+    font-family: sans-serif;
+    border:1px solid rgb(58, 58, 58);
+    color: white;
+    border-radius: 12px;
+    background-color: rgb(58, 58, 58);
+    text-decoration: none;
+    width:100%;
+  
+}
+li a:hover{
+    color: black;
+    background-color: rgb(230, 255, 88);
+}
+li a.instagram{
+    padding: 4% 37% 4% 37%;
+}
+li a.twitter{
+    padding: 4% 40% 4% 40%;
+}
+li a.linkedin{
+    padding: 4% 39% 4% 39%;
+}
+li a.mentor{
+    padding: 4% 33% 4% 33%;
+}
+li a.github{
+    padding: 4% 40% 4% 40%;
+}
+
+/*media queries */
+
+
+@media (max-width:1439px){
+    .card{
+     
+        width: 30%;
+        margin-left: 35%;
+    }
+    li a.instagram{
+        padding: 4% 31% 4% 31%;
+    }
+    li a.twitter{
+        padding: 4% 33.2% 4% 33.2%;
+    }
+    li a.linkedin{
+        padding: 4% 32% 4% 32%;
+    }
+    li a.mentor{
+        padding: 4% 25% 4% 25%;
+    }
+    li a.github{
+        padding: 4% 33% 4% 33%;
+    }
+}
+@media (max-width:1199px){
+    .card{
+        background-color: brown;
+        width: 40%;
+        margin-left: 30%;
+    }
+    li a.instagram{
+        padding: 4% 31% 4% 31%;
+    }
+    li a.twitter{
+        padding: 4% 33.3% 4% 33.4%;
+    }
+    li a.linkedin{
+        padding: 4% 32% 4% 32%;
+    }
+    li a.mentor{
+        padding: 4% 27% 4% 27%;
+    }
+    li a.github{
+        padding: 4% 33% 4% 33%;
+    }
+}
+@media (max-width:1024px){
+    .card{
+        background-color: green;
+        width: 40%;
+        margin-left: 30%;
+    }
+    li a.instagram{
+        padding: 4% 31% 4% 31%;
+    }
+    li a.twitter{
+        padding: 4% 33.3% 4% 33.4%;
+    }
+    li a.linkedin{
+        padding: 4% 32% 4% 32%;
+    }
+    li a.mentor{
+        padding: 4% 27% 4% 27%;
+    }
+    li a.github{
+        padding: 4% 33% 4% 33%;
+    }
+}
+
+@media (max-width: 767px){
+    .card{
+        background-color: rgb(225, 0, 255);
+        width: 65%;
+        margin-left: 15%;
+    }
+    li a.instagram{
+        padding: 4% 30% 4% 30%;
+    }
+    li a.twitter{
+        padding: 4% 33.3% 4% 33.4%;
+    }
+    li a.linkedin{
+        padding: 4% 32% 4% 32%;
+    }
+    li a.mentor{
+        padding: 4% 25% 4% 25%;
+    }
+    li a.github{
+        padding: 4% 33% 4% 33%;
+    }
+}
+
+@media (max-width:480px){
+    .card{
+        background-color: blue;
+        width: 85%;
+        margin-left: 5%;
+    }
+    li a.instagram{
+        padding: 4% 30% 4% 30%;
+    }
+    li a.twitter{
+        padding: 4% 33.3% 4% 33.4%;
+    }
+    li a.linkedin{
+        padding: 4% 32% 4% 32%;
+    }
+    li a.mentor{
+        padding: 4% 25% 4% 25%;
+    }
+    li a.github{
+        padding: 4% 33% 4% 33%;
+    }
+}
+
+
+
+/* @media (min-width:1020px){
+    .card{
+        width: 40%;
+        margin-left: 30%;
+    }
+    li a.instagram{
+        padding: 4% 30% 4% 30%;
+    }
+    li a.twitter{
+        padding: 4% 33.3% 4% 33.4%;
+    }
+    li a.linkedin{
+        padding: 4% 32% 4% 32%;
+    }
+    li a.mentor{
+        padding: 4% 25% 4% 25%;
+    }
+    li a.github{
+        padding: 4% 33% 4% 33%;
+    }
+}
+@media (max-width:1400px){
+    .card{
+        margin-left: 35%;
+        width: 20%;
+    }
+} */
