@@ -266,7 +266,12 @@ li a.github {
         font-size: small;
     }
 }
-
+@media (max-width:255px){
+    li a.mentor {
+        padding: 4% 20% 4% 20%;
+        font-size: 12px;
+    }
+}
 
 /* @media (min-width:1020px){
     .card{
